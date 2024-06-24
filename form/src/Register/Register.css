@@ -1,0 +1,341 @@
+.main-body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.Main img{
+    border:none;
+    max-width: 18rem;
+    height: auto;
+}
+
+.registration, .card, .pass, .login, .forgetpass {
+    background: linear-gradient(180deg, #9E13B1, #0E0C30);
+    width: 30rem; 
+    /* margin: 0 auto; */
+    /* margin-top: -5rem;  */
+    padding: 1.875rem;
+    position: relative;
+}
+
+.login {
+    height: 32.75rem; /* 524px */
+}
+
+.forgetpass {
+    height: 27.875rem; /* 446px */
+}
+
+
+
+.card, .pass {
+    height: 31.375rem; 
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: 500;
+    margin-bottom: -1.5625rem; 
+    letter-spacing: 0.1875rem; 
+}
+
+.labels {
+    display: flex;
+    flex-flow: column;
+    margin: 2.0625rem; 
+    align-items: center;
+}
+
+.field {
+    padding: 0 1.25rem;
+}
+
+input {
+    width: 20rem; 
+    height: 2.5rem; 
+    border-radius: 0.9375rem; 
+    margin: 0.625rem 0; 
+    border: 0.0625rem solid #E7E7E9; 
+    background-color: transparent;
+    padding: 1.125rem; 
+    font-size: 1.125rem; 
+}
+
+::placeholder {
+    color: #7B7C83;
+    font-size: 1.375rem; 
+}
+
+button {
+    margin-top: 0.625rem; 
+    width: 20rem; 
+    height: 2.5rem; 
+    font-size: 1.375rem; 
+    border: 0.0625rem white solid; 
+    border-radius: 0.9375rem; 
+    background-color: #03AACE;
+    letter-spacing: 0.1875rem; 
+}
+
+button:hover {
+    border-color: #03AACE;
+}
+
+.title {
+    margin-bottom: 1.5625rem; 
+}
+
+.instruct {
+    font-size: 1.25rem; 
+    text-align: center;
+    width: 20rem;
+}
+
+.code {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 14.375rem; 
+    margin: 2.5rem 5.9375rem; 
+    margin-bottom: 0;
+}
+
+.code input {
+    width: 2.875rem;
+}
+
+.card button {
+    margin: 0.625rem 3.125rem; 
+}
+
+.resend {
+    display: flex;
+    width: fit-content;
+    margin: 1.875rem auto;
+    gap: 0.625rem; 
+    cursor: pointer;
+}
+
+.forget {
+    margin-top: 2.5rem; /* 40px */
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#r {
+    color: #03AACE;
+}
+
+.pass .labels, .login .labels {
+    margin: 4.375rem; /* 70px */
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.forgetpass .labels {
+    margin-top: 5rem; /* 80px */
+    margin-bottom: 0.625rem; /* 10px */
+}
+
+.pass .labels .field, .login .labels .field {
+    margin-bottom: 1.875rem; /* 30px */
+}
+
+.pass button {
+    margin: 0 3.125rem; /* 50px */
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login button {
+    margin: -1.25rem 3.125rem; /* -20px 50px */
+}
+
+.forgetpass button {
+    margin: 2.25rem 0; /* 20px 50px */
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.verified{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    position: absolute;
+    top:8.5rem;
+}
+
+.check{
+    max-width: 34rem;
+    border: black;
+}
+
+.Success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.message {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.message p {
+    margin-top: 1.875rem; 
+}
+
+.message button {
+    margin-top: 5rem; 
+}
+
+.forget p, .reg {
+    font-size: 0.875rem; 
+    color: #2830FA;
+    cursor: pointer;
+}
+
+.reg {
+    text-align: right; 
+}
+
+.input-error {
+    border: 0.125rem solid rgb(183, 33, 33); 
+}
+
+.error-message {
+    color: rgb(216, 27, 27);
+    font-size: 0.875rem; /* 14px */
+    padding-left: 0.1875rem; /* 3px */
+    height: 0.25rem; /* 4px */
+}
+
+.card .error-message {
+    margin-bottom: 2.5rem; /* 40px */
+    /* margin-left: 3.4375rem; 55px */
+}
+
+.registration input {
+    margin-bottom: 0;
+}
+
+.registration .error-message {
+    margin-bottom: 1.25rem; 
+}
+
+.form{
+    padding: 0 auto;
+}
+
+.success-message{
+    max-width: 23rem;
+}
+
+@media (max-width: 1344px) {
+    .registration, .card, .pass, .login, .forgetpass,.Success{
+        width: 80%;
+        height: 90%;
+        max-width: 30rem;
+        margin-top: 3rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login {
+        height: 32.75rem;
+    }
+}
+
+@media (max-width: 465px){
+    .Main img{
+        size: 2rem;
+        margin : 0 4.55rem;
+    }
+
+    .registration, .card, .pass, .login, .forgetpass{
+        width: 80%;
+        max-width: 20rem; 
+        
+    }
+
+    .Success{
+        margin-top:6rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+
+    input, .forget{
+        width: 15rem;
+    }
+
+    label{
+        font-size: 1rem;
+    }
+    ::placeholder{
+        font-size: 1rem;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+
+    .instruct,button{
+        width: 15rem;
+    }
+
+    .instruct p{
+        font-size: 1rem;
+    }
+
+    .forget p{
+        font-size: 0.6rem;
+    }
+
+    .card .error-message{
+        text-align: center;
+    }
+    
+    .success-message{
+        margin:0 2rem;
+    }
+}
