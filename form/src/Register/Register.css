@@ -27,12 +27,11 @@
 }
 
 .registration, .card, .pass, .login, .forgetpass {
-    background: linear-gradient(180deg, #9E13B1, #0E0C30);
+    background:#FEF7F7;
     width: 30rem; 
-    /* margin: 0 auto; */
-    /* margin-top: -5rem;  */
     padding: 1.875rem;
     position: relative;
+    box-shadow: 10px red;
 }
 
 .login {

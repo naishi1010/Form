@@ -4,14 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    /* color: white; */
 }
 
 body,html{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: black;
+    background-color:#DEDBDB;
+
     font-family: 'Poppins', sans-serif;
 }
 .App {

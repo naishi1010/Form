@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className='Main'>
         <img className='logo'
-          src='./assets/logo.png'
+          src='./assets/da-1.png'
           title='logo' 
           style={{"margin-left": "2rem"}}
         />
